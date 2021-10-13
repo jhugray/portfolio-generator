@@ -83,6 +83,7 @@ const promptProject = portfolioData => {
           console.log('Please enter a description of your project');
           return false;
         }
+      }
     },
     {
       type: 'checkbox',
@@ -101,6 +102,7 @@ const promptProject = portfolioData => {
           console.log('Please enter the GitHub link to your project!');
           return false;
         }
+      }
     },
     {
       type: 'confirm',
